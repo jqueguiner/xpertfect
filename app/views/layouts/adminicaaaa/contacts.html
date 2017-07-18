@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>	<head>
+		<meta charset="utf-8">
+
+		<!-- iPhone, iPad and Android specific settings -->	
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<title>Adminica | The Professional Admin Theme</title>
+		
+		<!-- Create an icon and splash screen for iPhone and iPad -->
+		<link rel="apple-touch-icon" href="images/iOS_icon.png">
+		<link rel="apple-touch-startup-image" href="images/iOS_startup.png"> 
+
+		<link rel="stylesheet" type="text/css" href="css/all.css" media="screen">
+		
+		<!-- These stylesheets are used  -->
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher1.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher2.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher3.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher4.php?default=switcher.css" media="screen" />
+
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+			
+		<!-- Load JQuery -->		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+		<!-- Load JQuery UI -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		
+		<!-- Load Interface Plugins -->
+		<script src="js/plugins.js"></script>
+		
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery.quicksand.js"></script>
+		<script type="text/javascript" src="js/quicksand/custom_sorter.js"></script>
+		<script type="text/javascript" src="js/quicksand/dash_sorter.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery-css-transform.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery-animate-css-rotate-scale.js"></script>
+		<script type="text/javascript" src="js/tinyeditor/tinyeditor.js"></script>
+		<script type="text/javascript" src="js/DataTables/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="js/jqueryFileTree/jqueryFileTree.js"></script>
+		<script type="text/javascript" src="js/slidernav/slidernav.js"></script>
+		<script type="text/javascript" src="js/fullcalendar/fullcalendar.min.js"></script>
+		<script type='text/javascript' src='js/fullcalendar/gcal.js'></script>
+		<script type='text/javascript' src='js/flot/excanvas.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.resize.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.pie.js'></script>
+
+		<!-- This file configures the various jQuery plugins for Adminica. Contains links to help pages for each plugin. -->
+		<script type="text/javascript" src="js/adminica/adminica_ui.js"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="topbar" class="clearfix">
+				<a href="index.html" class="logo"><span>Adminica Pro II</span></a>
+				<div class="user_box round_all">
+					<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+					<h2>Administrator</h2>
+					<h3><a class="text_shadow" href="#">John Smith</a></h3>
+					<ul>
+						<li><a href="#">profile</a><span class="divider">|</span></li>
+						<li><a href="#">settings</a><span class="divider">|</span></li>
+						<li><a href="login.html">logout</a></li>
+					</ul>
+				</div><!-- #user_box -->	
+			</div><!-- #topbar -->		
+		
+			<div id="sidebar">
+				<a href="index.html" class="logo"><span>Adminica Pro II</span></a>
+				<div class="user_box round_all clearfix">
+					<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+					<h2>Administrator</h2>
+					<h3><a class="text_shadow" href="#">John Smith</a></h3>
+					<ul>
+						<li><a href="#">settings</a><span class="divider">|</span></li>
+						<li><a href="login.html">logout</a></li>
+					</ul>
+				</div><!-- #user_box -->
+
+				<ul id="accordion">
+					<li><a href="index.html" class="top_level"><img src="images/icons/small/grey/home.png"/>Home</a>
+						<ul class="drawer">
+							<li><a href="#">Activity</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Tasks</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/mail.png"/>Mailbox</a>
+						<ul class="drawer">
+							<li><a href="#">Inbox</a></li>
+							<li><a href="#">Sent Items</a></li>
+							<li><a href="#">Drafts</a></li>
+							<li><a href="#">Trash</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/documents.png"/>Documents</a>
+						<ul class="drawer">
+							<li><a href="#">Create New</a></li>
+							<li><a href="#">View All</a></li>
+							<li><a href="#">Upload/Download</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/users.png"/>Members</a>
+						<ul class="drawer">
+							<li><a href="#">Add New</a></li>
+							<li><a href="#">Edit/Delete</a></li>
+							<li><a href="#">Search Profiles</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/graph.png"/>Statistics</a></li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/cog%202.png"/>Settings</a>
+						<ul class="drawer">
+							<li><a href="#">Account</a></li>
+							<li><a href="#">System</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form id="search_side"><input class="round_all" type="text" value="Search..." onClick="value=''"></form>
+				<ul id="side_links" class="text_shadow" >
+					<li><a href="http://www.tricycle.ie/adminica/index.php/docs/">Online Documentation</a>
+					<li><a href="#">Expert Forum</a></li>
+					<li><a href="#">Product Wiki</a></li>
+					<li><a href="#">Latest Company News</a></li>
+				</ul>
+			</div><!-- #sidebar -->
+
+		<div id="main_container" class="main_container container_16 clearfix">
+			
+			<div id="nav_top" class="clearfix  round_top">
+				<ul class="clearfix">
+					<li class="current"><a href="dashboard_sorter.html"><img src="images/icons/small/white/Laptop.png"/>Dashboard</a></li>
+
+					<li><a href="#"><img src="images/icons/small/grey/Frames.png"/>Layout</a>
+						<ul class="dropdown">
+							<li><a href="layout.html">16 Grid - 960.gs</a></li>
+							<li><a href="text.html">Text & Typography</a></li>
+							<li><a class="has_slide" href="#">Layout Width</a>
+								<ul class="slideout">						
+									<li><a href="css/theme/switcher1.php?style=../layout_fixed.css">Fixed</a></li>
+									<li><a href="css/theme/switcher1.php?style=switcher.css">Fluid</a></li>
+								</ul>
+							</li>
+							<li><a class="has_slide" href="#">Layout Position</a>
+								<ul class="slideout">
+									<li><a href="css/theme/switcher2.php?style=switcher.css">Side</a></li>
+									<li><a href="css/theme/switcher2.php?style=../layout_top.css">Top</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="images/icons/small/grey/Coverflow.png"/>Boxes</a>
+						<ul class="dropdown">
+							<li><a class="has_slide" href="#">Tab Boxes</a>
+								<ul class="slideout">
+									<li><a href="tabs.html">Horizontal Tabs</a></li>
+									<li><a href="tabs.html">Vertical Tabs</a></li>
+								</ul>
+							</li>
+								<li><a href="accordions.html">Accordions Boxes</a></li>
+								<li><a href="wizard.html">Step by Step Wizard</a></li>
+							<li><a href="code.html">Code View</a></li>
+						</ul>
+					</li>	
+					<li><a href="#"><img src="images/icons/small/grey/Create%20Write.png"/>Forms</a>
+						<ul class="dropdown">
+							<li><a href="forms.html">Input & Validation</a>
+							</li>
+							<li><a class="has_slide" href="#">Date</a>
+								<ul class="slideout">
+									<li><a href="forms.html">Date Field</a></li>
+									<li><a href="forms.html">Inline Picker</a></li>
+								</ul>
+							</li>
+							<li><a class="has_slide" href="#">Sliders</a>
+								<ul class="slideout">
+									<li><a href="forms.html">Horizontal Slider</a></li>
+									<li><a href="forms.html">Vertical Slider</a></li>
+									<li><a href="forms.html">Range Slider</a></li>
+									<li><a href="forms.html">Progress Bar</a></li>
+								</ul>
+							</li>
+							<li><a href="buttons.html">Buttons</a></li>
+							<li><a href="editor.html">WYSIWYG Editor</a></li>
+						</ul>
+					</li>		
+					<li><a href="#"><img src="images/icons/small/grey/Images.png"/>Gallery</a>
+						<ul class="dropdown">
+							<li><a href="gallery.html">Fancybox Gallery</a></li>
+							<li><a href="gallery_sortable.html">Sortable Gallery</a></li>
+						</ul>
+					</li>			
+					<li><a href="#"><img src="images/icons/small/grey/Blocks%20Images.png"/>Tables</a>
+						<ul class="dropdown dropdown_left">
+							<li><a href="tables.html">DataTables</a></li>
+							<li><a href="tables_static.html">Regular Tables</a></li>
+						</ul>			
+					</li>
+					<li><a href="#"><img src="images/icons/small/grey/Blocks%20Images.png"/>Organize</a>
+						<ul class="dropdown dropdown_left">
+							<li><a href="files.html"><img src="images/icons/small/grey/Folder.png"/>Files</a></li>
+							<li><a href="contacts.html"><img src="images/icons/small/grey/Users.png"/>Contacts</a></li>
+						</ul>
+					</li>
+					<li><a href="calendar.html"><img src="images/icons/small/grey/Month%20Calendar.png"/>Calendar</a></li>
+					<li><a href="charts.html"><img src="images/icons/small/grey/Graph.png"/>Charts</a></li>
+					<li><a href="login.html"><img src="images/icons/small/grey/Locked%202.png"/>Login</a></li>
+				</ul>	
+			</div><!-- #nav_top -->
+			
+				<div class="box clearfix grid_6">
+					<h2 class="box_head grad_colour round_top">Form Elements</h2>
+					<div id="slider_list">
+						<div class="slider-content">
+							<ul>
+								<li id="a"><a name="a" class="title">A</a>
+									<ul>
+										<li><a href="#">Adam</a></li>
+										<li><a href="#">Alex</a></li>
+										<li><a href="#">Ali</a></li>
+										<li><a href="#">Apple</a></li>
+										<li><a href="#">Arthur</a></li>
+										<li><a href="#">Ashley</a></li>
+									</ul>
+								</li>
+								<li id="b"><a name="b" class="title">B</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="c"><a name="c" class="title">c</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="d"><a name="d" class="title">d</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="e"><a name="e" class="title">E</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="f"><a name="f" class="title">f</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="g"><a name="g" class="title">g</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="h"><a name="h" class="title">h</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="i"><a name="i" class="title">i</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="j"><a name="j" class="title">j</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="k"><a name="k" class="title">k</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="l"><a name="l" class="title">l</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="m"><a name="m" class="title">m</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="n"><a name="n" class="title">n</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="o"><a name="o" class="title">o</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="p"><a name="p" class="title">p</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="q"><a name="q" class="title">q</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="r"><a name="r" class="title">r</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="s"><a name="s" class="title">s</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="t"><a name="t" class="title">t</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="u"><a name="u" class="title">u</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="v"><a name="v" class="title">v</a>
+									<ul>
+										<li><a href="#">Barry</a></li>
+										<li><a href="#">Becky</a></li>
+										<li><a href="#">Biff</a></li>
+										<li><a href="#">Billy</a></li>
+										<li><a href="#">Bozarking</a></li>
+										<li><a href="#">Bryan</a></li>
+									</ul>
+								</li>
+								<li id="w"><a name="w" class="title">w</a>
+									<ul>
+										<li><a href="#">Calista</a></li>
+										<li><a href="#">Cathy</a></li>
+										<li><a href="#">Chris</a></li>
+										<li><a href="#">Cinderella</a></li>
+										<li><a href="#">Corky</a></li>
+										<li><a href="#">Cypher</a></li>
+									</ul>
+								</li>
+								<li id="x"><a name="x" class="title">x</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="y"><a name="y" class="title">y</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+								<li id="z"><a name="z" class="title">z</a>
+									<ul>
+										<li><a href="#">damien</a></li>
+										<li><a href="#">danny</a></li>
+										<li><a href="#">denver</a></li>
+										<li><a href="#">devon</a></li>
+										<li><a href="#">doug</a></li>
+										<li><a href="#">dustin</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="flat_area grid_10">
+					<h2>Contact List</h2>
+					<p>This<strong> apple style contact list</strong> is just as useful on the big screen as on an iPhone. Of course it can list anything not just contacts...</p>
+					<p>Try it out and you'll see how quickly you can locate the desired entry. Amazing!</p>
+				</div>
+			</div>
+
+			<div id="template_options" class="clearfix">
+				<h3><img src="images/adminica.png" alt="Adminica"></h3>
+				<div class="layout_size round_all">
+					<label>Layout:</label>
+					<a href="css/theme/switcher1.php?style=switcher.css">Fluid</a><span>|</span>
+					<a href="css/theme/switcher1.php?style=../layout_fixed.css">Fixed</a><span>
+				</div>
+				<div class="layout_position round_all">
+					<label>Header: </label>
+					<a href="css/theme/switcher2.php?style=switcher.css">Side</a><span>|</span>
+					<a href="css/theme/switcher2.php?style=../header_top.css">Top</a><span>|</span>
+					<a href="css/theme/switcher2.php?style=../header_slideout.css">Slide</a>
+				</div>
+				<div class="theme_colour round_all">
+					<label>Colour:</label>
+					<a class="black" href="css/theme/switcher3.php?style=switcher.css"><span>Black</span></a>
+					<a class="blue" href="css/theme/switcher3.php?style=theme_blue.css"><span>Blue</span></a>
+					<a class="navy" href="css/theme/switcher3.php?style=theme_navy.css"><span>Navy</span></a>
+					<a class="red" href="css/theme/switcher3.php?style=theme_red.css"><span>Red</span></a>
+					<a class="green" href="css/theme/switcher3.php?style=theme_green.css"><span>Green</span></a>
+					<a class="magenta" href="css/theme/switcher3.php?style=theme_magenta.css"><span>Magenta</span></a>
+					<a class="orange" href="css/theme/switcher3.php?style=theme_brown.css"><span>Brown</span></a>
+				</div>
+				<div class="theme_background round_all">
+					<label>Background:</label>
+					<a href="css/theme/switcher4.php?style=switcher.css">Boxes</a><span>|</span>
+					<a href="css/theme/switcher4.php?style=bg_punched.css">Punched</a><span>|</span>
+					<a href="css/theme/switcher4.php?style=bg_honeycomb.css">Honeycomb</a><span>|</span>
+					<a href="css/theme/switcher4.php?style=bg_wood.css">Wood</a><span>|</span>
+					<a href="css/theme/switcher4.php?style=bg_dark_wood.css">Timber</a><span>|</span>
+					<a href="css/theme/switcher4.php?style=bg_noise.css">Noise</a>
+				</div>
+			</div>
+		</body>
+	</html>

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>	<head>
+		<meta charset="utf-8">
+
+		<!-- iPhone, iPad and Android specific settings -->	
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<title>Adminica | The Professional Admin Theme</title>
+		
+		<!-- Create an icon and splash screen for iPhone and iPad -->
+		<link rel="apple-touch-icon" href="images/iOS_icon.png">
+		<link rel="apple-touch-startup-image" href="images/iOS_startup.png"> 
+
+		<link rel="stylesheet" type="text/css" href="css/all.css" media="screen">
+		
+		<!-- These stylesheets are used  -->
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher1.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher2.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher3.php?default=switcher.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/theme/switcher4.php?default=switcher.css" media="screen" />
+
+		<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+			
+		<!-- Load JQuery -->		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+		<!-- Load JQuery UI -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		
+		<!-- Load Interface Plugins -->
+		<script src="js/plugins.js"></script>
+		
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery.quicksand.js"></script>
+		<script type="text/javascript" src="js/quicksand/custom_sorter.js"></script>
+		<script type="text/javascript" src="js/quicksand/dash_sorter.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery-css-transform.js"></script>
+		<script type="text/javascript" src="js/quicksand/jquery-animate-css-rotate-scale.js"></script>
+		<script type="text/javascript" src="js/tinyeditor/tinyeditor.js"></script>
+		<script type="text/javascript" src="js/DataTables/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="js/jqueryFileTree/jqueryFileTree.js"></script>
+		<script type="text/javascript" src="js/slidernav/slidernav.js"></script>
+		<script type="text/javascript" src="js/fullcalendar/fullcalendar.min.js"></script>
+		<script type='text/javascript' src='js/fullcalendar/gcal.js'></script>
+		<script type='text/javascript' src='js/flot/excanvas.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.resize.js'></script>
+		<script type='text/javascript' src='js/flot/jquery.flot.pie.js'></script>
+
+		<!-- This file configures the various jQuery plugins for Adminica. Contains links to help pages for each plugin. -->
+		<script type="text/javascript" src="js/adminica/adminica_ui.js"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="topbar" class="clearfix">
+				<a href="index.html" class="logo"><span>Adminica Pro II</span></a>
+				<div class="user_box round_all">
+					<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+					<h2>Administrator</h2>
+					<h3><a class="text_shadow" href="#">John Smith</a></h3>
+					<ul>
+						<li><a href="#">profile</a><span class="divider">|</span></li>
+						<li><a href="#">settings</a><span class="divider">|</span></li>
+						<li><a href="login.html">logout</a></li>
+					</ul>
+				</div><!-- #user_box -->	
+			</div><!-- #topbar -->		
+		
+			<div id="sidebar">
+				<a href="index.html" class="logo"><span>Adminica Pro II</span></a>
+				<div class="user_box round_all clearfix">
+					<img src="images/profile.jpg" width="55" alt="Profile Pic" />
+					<h2>Administrator</h2>
+					<h3><a class="text_shadow" href="#">John Smith</a></h3>
+					<ul>
+						<li><a href="#">settings</a><span class="divider">|</span></li>
+						<li><a href="login.html">logout</a></li>
+					</ul>
+				</div><!-- #user_box -->
+
+				<ul id="accordion">
+					<li><a href="index.html" class="top_level"><img src="images/icons/small/grey/home.png"/>Home</a>
+						<ul class="drawer">
+							<li><a href="#">Activity</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Tasks</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/mail.png"/>Mailbox</a>
+						<ul class="drawer">
+							<li><a href="#">Inbox</a></li>
+							<li><a href="#">Sent Items</a></li>
+							<li><a href="#">Drafts</a></li>
+							<li><a href="#">Trash</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/documents.png"/>Documents</a>
+						<ul class="drawer">
+							<li><a href="#">Create New</a></li>
+							<li><a href="#">View All</a></li>
+							<li><a href="#">Upload/Download</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/users.png"/>Members</a>
+						<ul class="drawer">
+							<li><a href="#">Add New</a></li>
+							<li><a href="#">Edit/Delete</a></li>
+							<li><a href="#">Search Profiles</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/graph.png"/>Statistics</a></li>
+					<li><a href="#" class="top_level"><img src="images/icons/small/grey/cog%202.png"/>Settings</a>
+						<ul class="drawer">
+							<li><a href="#">Account</a></li>
+							<li><a href="#">System</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form id="search_side"><input class="round_all" type="text" value="Search..." onClick="value=''"></form>
+				<ul id="side_links" class="text_shadow" >
+					<li><a href="#">Documentation and FAQs</a></li>
+					<li><a href="#">Expert Forum</a></li>
+					<li><a href="#">Product Wiki</a></li>
+					<li><a href="#">Latest Company News</a></li>
+				</ul>
+			</div><!-- #sidebar -->
+
+		<div id="main_container" class="main_container container_16 clearfix">
+			
+			<div id="nav_top" class="clearfix  round_top">
+				<ul class="clearfix">
+					<li class="current"><a href="dashboard.html"><img src="images/icons/small/white/laptop.png"/>Dashboard</a></li>
+
+					<li><a href="#"><img src="images/icons/small/grey/frames.png"/>Layout</a>
+						<ul class="dropdown">
+							<li><a href="layout.html">16 Grid - 960.gs</a></li>
+							<li><a href="text.html">Text & Typography</a></li>
+							<li><a class="has_slide" href="#">Layout Width</a>
+								<ul class="slideout">						
+									<li><a href="page_fixed.html">Fixed</a></li>
+									<li><a href="index.html">Fluid</a></li>
+								</ul>
+							</li>
+							<li><a class="has_slide" href="#">Layout Position</a>
+								<ul class="slideout">
+									<li><a href="index.html">Side</a></li>
+									<li><a href="page_top.html">Top</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><img src="images/icons/small/grey/coverflow.png"/>Boxes</a>
+						<ul class="dropdown">
+							<li><a class="has_slide" href="#">Tab Boxes</a>
+								<ul class="slideout">
+									<li><a href="tabs.html">Horizontal Tabs</a></li>
+									<li><a href="tabs.html">Vertical Tabs</a></li>
+								</ul>
+							</li>
+							<li><a href="accordions.html">Accordions Boxes</a></li>
+							<li><a href="code.html">Code View</a></li>
+						</ul>
+					</li>	
+					<li><a href="#"><img src="images/icons/small/grey/create%20write.png"/>Forms</a>
+						<ul class="dropdown dropdown_right">
+							<li><a href="forms.html">Input Fields & Validation</a>
+							</li>
+							<li><a class="has_slide" href="#">Date</a>
+								<ul class="slideout">
+									<li><a href="forms.html">Date Field</a></li>
+									<li><a href="forms.html">Inline Picker</a></li>
+								</ul>
+							</li>
+							<li><a class="has_slide" href="#">Sliders</a>
+								<ul class="slideout">
+									<li><a href="forms.html">Horizontal Slider</a></li>
+									<li><a href="forms.html">Vertical Slider</a></li>
+									<li><a href="forms.html">Range Slider</a></li>
+									<li><a href="forms.html">Progress Bar</a></li>
+								</ul>
+							</li>
+							<li><a href="buttons.html">Buttons</a></li>
+							<li><a href="editor.html">WYSIWYG Editor</a></li>
+						</ul>
+					</li>		
+					<li><a href="#"><img src="images/icons/small/grey/images.png"/>Gallery</a>
+						<ul class="dropdown dropdown_right">
+							<li><a href="gallery.html">Fancybox Gallery</a></li>
+							<li><a href="gallery_sortable.html">Sortable Gallery</a></li>
+						</ul>
+					</li>			
+					<li><a href="tables.html"><img src="images/icons/small/grey/blocks%20images.png"/>Tables</a></li>
+					<li><a href="files.html"><img src="images/icons/small/grey/Folder.png"/>Files</a></li>
+					<li><a href="contacts.html"><img src="images/icons/small/grey/Users.png"/>Contacts</a></li>
+					<li><a href="login.html"><img src="images/icons/small/grey/Locked%202.png"/>Login</a></li>
+				</ul>	
+			</div><!-- #nav_top -->
+	
+				<div class="flat_area grid_10">
+					<h2>Welcome to <strong>Adminica</strong></h2>
+					<p><strong>Adminica</strong> is a <strong>cleanly coded</strong>, <strong>beautifully styled</strong>, easily <strong>customisable</strong>, <strong>cross-browser</strong> compatible <strong>Web Application Interface</strong>.</p>
+
+					<p><strong>Adminica</strong> is packed full of features, allowing you<strong> unlimited combinations</strong> of layouts, controls and styles to ensure you have a <strong>trully unique app</strong>. </p>
+
+					<p><strong>Adminica</strong>  can <strong>scale itself automatically</strong> to fit whatever screen resolution the user has. The interface<strong> works perfectly all the way down to iPhone size</strong></p>
+				</div>			
+					<div class="box grid_6 round_all tabs">
+						<ul class="tab_header grad_colour clearfix">
+							<li>
+								<a href="#tabs-1">Quicklinks</a>
+							</li>
+							<li>
+								<a href="#tabs-2" class="round_top">Content</a>
+							</li>
+						</ul>
+						<a href="#" class="grabber">&nbsp;</a>
+						<a href="#" class="toggle">&nbsp;</a>
+						<div class="toggle_container">
+							<div id="tabs-1" class="block no_padding">
+								<ul class="full_width">
+									<li><a href="page_fixed.html">Fixed</a> and <a href="page_fluid.html">Fluid</a> width layout</li>		
+									<li><a href="page_side.html">Sidebar</a> or <a href="page_full.html">Top Bar</a></li>
+									<li class="theme_colour round_all">
+										<a class="black" href="page_black.html"><span>Black</span></a>
+										<a class="blue" href="page_blue.html"><span>Blue</span></a>
+										<a class="navy" href="page_navy.html"><span>Navy</span></a>
+										<a class="red" href="page_red.html"><span>Red</span></a>
+										<a class="green" href="page_green.html"><span>Green</span></a>
+										<a class="magenta" href="page_magenta.html"><span>Magenta</span></a>
+										<a class="brown" href="page_brown.html"><span>Brown</span></a>
+									</li>								
+									<li>Or any combination of the above eg. <a href="page_fixed_full.html">Navy Fixed Full</a></li>
+								</ul>
+							</div>
+						<div id="tabs-2" class="block">
+							<div class="content">
+								<h1>Primary Heading</h1>
+								<p>Lorem Ipsum is simply dummy text of the <a href="#" title="This is a tooltip">printing industry</a>. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p> 
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+			<div class="main_container container_16 clearfix">
+				<div id="feature_container" class="grid_16">					
+						
+					<form id="filter" class="clearfix indent gallery_sorter">
+				  		<fieldset class="grid_7 alpha">
+						    <H3>Features:</h3>
+						    <label><input type="radio" name="type" value="all" checked="checked">All</label>
+						    <label><input type="radio" name="type" value="new">New</label>
+						    <label><input type="radio" name="type" value="cool">Cool</label>
+						</fieldset>
+						<fieldset class="grid_7 omega">
+						    <h3>Sort by</h3>
+						    <label><input type="radio" name="sort" value="name" checked="checked">Name</label>
+						    <label><input type="radio" name="sort" value="update">Update</label>    
+						</fieldset>
+					</form>
+					
+					<ul class="feature_list clearfix">
+
+						<li data-id="side_nav" data-type="cool">
+							<a href="css/theme/switcher2.php?style=switcher.css" class="features">
+							<img src="images/content/sidebar.png"><strong>Side Nav</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+
+						<li data-id="slideout" data-type="new">
+							<a href="css/theme/switcher2.php?style=../header_slideout.css" class="features">
+							<img src="images/content/side_top.png"><strong>Slide Nav</strong>
+							<span class="update">1</span>
+							<div class="starred blue">&nbsp;</div>
+							</a>
+						</li>
+
+						<li data-id="full_width" data-type="all">
+							<a href="css/theme/switcher2.php?style=../header_top.css" class="features">
+							<img src="images/content/full_width.png"><strong>Full Width</strong>
+							<span class="update">0</span>
+							</a>
+						</li>							
+							
+						<li data-id="drag" data-type="all">
+							<a href="layout.php" class="features">
+							<img src="images/content/sortable.png"><strong>Drag, Sort & Toggle</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						<li data-id="chart" data-type="new">
+							<a href="charts.html" class="features">
+							<img src="images/content/charts.png"><strong>Graphs & Charts</strong>
+							<span class="update">2</span>
+							<div class="starred green">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="calendar" data-type="new">
+							<a href="calendar.html" class="features">
+							<img src="images/content/calendar.png"><strong>Events Calendar</strong>
+							<span class="update">2</span>
+							<div class="starred green">&nbsp;</div></a>
+						</li>
+						
+						<li data-id="wizard" data-type="new">
+							<a href="wizard.html" class="features">
+							<img src="images/content/wizard.png"><strong>Step by Step Wizard</strong>
+							<span class="update">2</span>
+							<div class="starred green">&nbsp;</div></a>
+						</li>
+												
+						<li data-id="table_static" data-type="new">
+							<a href="tables_static.html" class="features">
+							<img src="images/content/tables.png"><strong>Table Styles</strong>
+							<span class="update">2</span>
+							<div class="starred green">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="tabs" data-type="cool">
+							<a id="opener" href="tabs.php" class="features">
+							<img src="images/content/tabs.png"><strong>2 Types of Tabs</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="accordion" data-type="cool">
+							<a href="accordions.php" class="features">
+							<img src="images/content/accordion.png"><strong>Sortable Accordions</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="fluid_width" data-type="cool">
+							<a href="css/theme/switcher1.php?style=switcher.css" class="features">
+							<img src="images/content/fluid.png"><strong>Fluid Width</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+
+						<li data-id="fixed_width" data-type="cool">
+							<a href="css/theme/switcher1.php?style=../layout_fixed.css" class="features">
+							<img src="images/content/fixed.png"><strong>Fixed Width</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+						<li data-id="nav" data-type="all">
+							<a href="#" class="features">
+							<img src="images/content/nav.png"><strong>Unique Navigation</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+							
+						<li data-id="iOS" data-type="cool">
+							<a href="css/theme/switcher1.php?style=switcher.css" class="features"><img src="images/content/touchscreens.png"><strong>iOS & Android Ready</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="syntax" data-type="all">
+							<a href="code.php" class="features">
+							<img src="images/content/code.png"><strong>Syntax Highlighting</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+							
+						<li data-id="themes" data-type="cool">
+							<a href="theme.php" class="features">
+							<img src="images/content/themes.png"><strong>7 Themes</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+
+						<li data-id="theme_switcher" data-type="new">
+							<a href="#" class="features">
+							<img src="images/content/theme_switcher.png"><strong>Theme Switcher</strong>
+							<span class="update">1</span>
+							<div class="starred blue">&nbsp;</div>
+							</a>
+						</li>
+							
+						<li data-id="contact" data-type="cool">
+							<a href="contacts.php" class="features">
+							<img src="images/content/contacts.png"><strong>Unique Slider Lists</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="icons" data-type="all">
+							<a href="buttons.php" class="features">
+							<img src="images/content/icons.png"><strong>400+ Icons</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+							
+						<li data-id="buttons" data-type="cool">
+							<a href="buttons.php" class="features">
+							<img src="images/content/buttons.png"><strong>290+ CSS3 Buttons</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div></a>
+						</li>
+							
+						<li data-id="forms" data-type="all">
+							<a href="forms.php" class="features">
+							<img src="images/content/forms.png"><strong>Fully Styled Forms</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+							
+						<li data-id="date" data-type="all">
+							<a href="forms.php" class="features">
+							<img src="images/content/datepicker.png"><strong>Date Picker</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+
+						<li data-id="dismiss_box" data-type="new">
+							<a href="forms.php" class="features">
+							<img src="images/content/dismiss_box.png"><strong>Alert Boxes</strong>
+							<span class="update">1</span>
+							<div class="starred blue">&nbsp;</div>
+							</a>
+						</li>
+							
+						<li data-id="960" data-type="all">
+							<a href="layout.php" class="features">
+							<img src="images/content/960.png"><strong>960.gs Framework</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						
+						<li data-id="typography" data-type="all">
+							<a href="text.php" class="features">
+							<img src="images/content/typography.png"><strong>Typography & Text</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						
+						<li data-id="RTE" data-type="all">
+							<a href="editor.php" class="features">
+							<img src="images/content/type.png"><strong>Rich Text Editor</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						
+						<li data-id="sortable_gallery" data-type="cool">
+							<a href="gallery_sortable.php" class="features">
+							<img src="images/content/gallery.png"><strong>Sortable Gallery</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+						
+						<li data-id="gallery" data-type="cool">
+							<a href="gallery.php" class="features">
+							<img src="images/content/fancybox.png"><strong>Fancybox Viewer</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+						
+						<li data-id="tables" data-type="cool">
+							<a href="tables.php" class="features">
+							<img src="images/content/tables.png"><strong>Dynamic Tables</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+						
+						<li data-id="files" data-type="cool">
+							<a href="files.php" class="features">
+							<img src="images/content/files.png"><strong>File Browser</strong>
+							<span class="update">0</span>
+							<div class="starred">&nbsp;</div>
+							</a>
+						</li>
+						
+						<li data-id="login" data-type="all">
+							<a href="login.php" class="features">
+							<img src="images/content/login.png"><strong>Login Box</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						
+						<li data-id="CSS3" data-type="all">
+							<a href="#" class="features">
+							<img src="images/content/css3.png"><strong>CSS3 enhanced</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+						
+						<li data-id="cross_browser" data-type="all">
+							<a href="#" class="features">
+							<img src="images/content/browser.png"><strong>Cross Browser (IE7+)</strong>
+							<span class="update">0</span>
+							</a>
+						</li>
+
+						<li data-id="scroll_top" data-type="new">
+							<a href="#" class="features">
+							<img src="images/content/scroll_top.png"><strong>Scroll Top</strong>
+							<span class="update">1</span>
+							<div class="starred blue">&nbsp;</div>
+							</a>
+						</li>
+				
+					</ul>
+				</div>
+			</div>
+			<div class="main_container container_16 clearfix">
+				<div class="flat_area grid_16">
+					<p><strong>Adminica</strong> comes bundled with <strong>7 beautiful themes</strong> and backgrounds (...my favorite are <a href="css/theme/switcher1.html?style=multiple&switcher3.html=theme_navy.css&switcher4.html=bg_wood.css">navy</a> and <a href="css/theme/switcher1.html?style=multiple&switcher3.html=theme_blue.css&switcher4.html=bg_honeycomb.css">blue</a>). You can easily create your own themes by specifying your own colour values. All gradients and buttons have been created using <strong>CSS3 so no need to save out new images!</strong></p>
+				</div>
+			</div>
+			<div class="main_container container_16 clearfix fullsize">
+				<div class="box grid_16 round_all">
+					<ul class="block content_accordion no_header">
+						<li>
+							<a href="#" class="handle">&nbsp;</a>
+							<h3 class="bar">First Heading</h3>
+							<div class="content">
+								<p>Content goes here</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="handle">&nbsp;</a>
+							<h3 class="bar">Second Heading</h3>
+							<div class="content">
+								<p>Content goes here</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="handle">&nbsp;</a>
+							<h3 class="bar">Third Heading</h3>
+							<div class="content">
+								<p>Content goes here</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="handle">&nbsp;</a>
+							<h3 class="bar">Fourth Heading</h3>
+							<div class="content">
+								<p>Content goes here</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div id="template_options" class="clearfix">
+			<h3><img src="images/adminica.png" alt="Adminica"></h3>
+			<div class="layout_size round_all">
+				<label>Layout:</label>
+				<a href="css/theme/switcher1.php?style=switcher.css">Fluid</a><span>|</span>
+				<a href="css/theme/switcher1.php?style=../layout_fixed.css">Fixed</a><span>
+			</div>
+			<div class="layout_position round_all">
+				<label>Header: </label>
+				<a href="css/theme/switcher2.php?style=switcher.css">Side</a><span>|</span>
+				<a href="css/theme/switcher2.php?style=../header_top.css">Top</a><span>|</span>
+				<a href="css/theme/switcher2.php?style=../header_slideout.css">Slide</a>
+			</div>
+			<div class="theme_colour round_all">
+				<label>Colour:</label>
+				<a class="black" href="css/theme/switcher3.php?style=switcher.css"><span>Black</span></a>
+				<a class="blue" href="css/theme/switcher3.php?style=theme_blue.css"><span>Blue</span></a>
+				<a class="navy" href="css/theme/switcher3.php?style=theme_navy.css"><span>Navy</span></a>
+				<a class="red" href="css/theme/switcher3.php?style=theme_red.css"><span>Red</span></a>
+				<a class="green" href="css/theme/switcher3.php?style=theme_green.css"><span>Green</span></a>
+				<a class="magenta" href="css/theme/switcher3.php?style=theme_magenta.css"><span>Magenta</span></a>
+				<a class="orange" href="css/theme/switcher3.php?style=theme_brown.css"><span>Brown</span></a>
+			</div>
+			<div class="theme_background round_all">
+				<label>Background:</label>
+				<a href="css/theme/switcher4.php?style=switcher.css">Boxes</a><span>|</span>
+				<a href="css/theme/switcher4.php?style=bg_punched.css">Punched</a><span>|</span>
+				<a href="css/theme/switcher4.php?style=bg_honeycomb.css">Honeycomb</a><span>|</span>
+				<a href="css/theme/switcher4.php?style=bg_wood.css">Wood</a><span>|</span>
+				<a href="css/theme/switcher4.php?style=bg_dark_wood.css">Timber</a><span>|</span>
+				<a href="css/theme/switcher4.php?style=bg_noise.css">Noise</a>
+			</div>
+		</div>
+	</body>
+</html>

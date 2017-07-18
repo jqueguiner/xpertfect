@@ -1,0 +1,40 @@
+@import 'fancybox/jquery.fancybox-1.3.4.css';
+@import 'uniform/uniform.default.css';
+@import 'tipsy/tipsy.css';
+@import 'tinyeditor/style.css';
+@import 'jqueryFileTree/jqueryFileTree.css';
+@import 'slidernav/slidernav.css';
+@import 'syntax_highlighter/shCore.css';
+@import 'syntax_highlighter/shThemeDefault.css';
+@import 'uitotop/ui.totop.css';
+@import 'fullcalendar/fullcalendar.css';
+
+@import 'dir-styles.css';
+
+@import 'reset.css';
+@import 'text.css';
+@import 'grid.css';
+
+@import 'jqueryui.css';
+@import 'main.css';
+
+@import 'theme/theme_base.css';
+@import 'buttons.css';
+
+
+.dataTables_processing {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 250px;
+height: 30px;
+margin-left: -125px;
+margin-top: -15px;
+padding: 14px 0 2px 0;
+border: 1px solid #DDD;
+text-align: center;
+color: #999;
+font-size: 14px;
+background-color: white;
+}
+

@@ -1,0 +1,398 @@
+2011-04-15 23:08:27 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'UsersProject.user_id' in 'on clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:46:05 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'UsersProject.user_id' in 'field list'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:46:05 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'project_id' in 'field list'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:46:10 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'UsersProject.user_id' in 'on clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:49:41 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1066: Not unique table/alias: 'DecisionModelNode'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:49:41 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\decision_model_nodes\index.ctp, line 18]
+2011-04-16 04:50:09 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1048: Column 'level' cannot be null</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:50:24 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1066: Not unique table/alias: 'DecisionModelNode'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:50:24 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\decision_model_nodes\index.ctp, line 18]
+2011-04-16 04:56:40 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1066: Not unique table/alias: 'DecisionModelNode'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:56:40 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\decision_model_nodes\index.ctp, line 18]
+2011-04-16 04:57:07 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1066: Not unique table/alias: 'DecisionModelNode'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-16 04:57:07 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\decision_model_nodes\index.ctp, line 18]
+2011-04-17 23:10:55 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:10:55 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:15:16 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:15:16 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:15:22 Warning: Warning (2): include(./includes/closing_items.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:15:22 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening './includes/closing_items.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:15:30 Warning: Warning (2): include(../includes/closing_items.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:15:30 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening '../includes/closing_items.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:15:37 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:15:37 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-17 23:16:18 Warning: Warning (2): include(./app/views/layouts/includes/closing_items.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:16:18 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening './app/views/layouts/includes/closing_items.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 21]
+2011-04-17 23:18:02 Warning: Warning (2): include(includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:18:02 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:18:10 Warning: Warning (2): include(includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:18:10 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:18:35 Warning: Warning (2): include(includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:18:35 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:19:12 Warning: Warning (2): include(includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:19:12 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:19:54 Warning: Warning (2): include(/includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:19:54 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening '/includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:20:21 Warning: Warning (2): include(./includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:20:21 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening './includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:20:38 Warning: Warning (2): include(includes/template_options.html) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:20:38 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.html' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:21:35 Warning: Warning (2): include(app/views/layouts/includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-17 23:21:35 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'app/views/layouts/includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\login.ctp, line 72]
+2011-04-18 12:15:12 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 12:15:12 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 12:15:27 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 12:15:27 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 12:18:37 Warning: Warning (2): include(includes/template_options.php) [<a href='http://php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 12:18:37 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'includes/template_options.php' for inclusion (include_path='C:\wamp\www\cake;C:\wamp\www\xpert_8\app\;.;C:\php\pear') in [C:\wamp\www\xpert_8\app\views\layouts\includes\closing_items.php, line 1]
+2011-04-18 17:34:05 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'User.right_id' in 'on clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-18 18:01:51 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'UsersProject.user_id' in 'on clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-18 18:02:56 Warning: Warning (512): Could not find validation handler n for hash_validation in [C:\wamp\www\cake\cake\libs\model\model.php, line 2613]
+2011-04-18 18:08:41 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:08:41 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 12
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:09:25 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:09:39 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:09:39 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 13
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:10:05 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:10:05 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 14
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:10:27 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:10:27 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 15
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:13 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:39:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:33 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:33 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:39:34 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:39:34 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:40:12 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:40:13 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:40:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:40:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:41:42 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:41:42 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:43:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:43:51 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:46:03 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:46:03 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:50:12 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:50:12 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:55:28 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:55:28 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:55:54 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:55:54 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:56:59 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:56:59 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:59:36 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:59:36 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 18:59:54 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 18:59:54 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:02:57 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:02:57 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:08:48 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:08:48 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:09:34 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:20:40 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:20:57 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:21:57 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:25:29 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:38:56 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:38:56 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 19:44:15 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 12
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:45:56 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:45:56 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 13
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:46:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:46:13 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 14
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:46:28 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:46:28 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 15
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:48:04 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:48:06 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:48:08 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 3
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 19:48:11 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-18 20:01:32 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 20:02:59 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 20:03:37 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 20:04:56 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-18 20:07:58 Warning: Warning (512): DbAcl::allow() - Invalid node in [C:\wamp\www\cake\cake\libs\controller\components\acl.php, line 361]
+2011-04-19 12:05:00 Warning: Warning (2): fopen(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_users) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [C:\wamp\www\cake\cake\libs\file.php, line 152]
+2011-04-19 12:05:00 Warning: Warning (2): unlink(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_users) [<a href='http://php.net/function.unlink'>function.unlink</a>]: Permission denied in [C:\wamp\www\cake\cake\libs\file.php, line 294]
+2011-04-19 12:34:53 Warning: Warning (2): fopen(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_node_types) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [C:\wamp\www\cake\cake\libs\file.php, line 152]
+2011-04-19 12:44:04 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:04 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:04 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:04 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:04 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:05 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:05 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:05 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:05 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:05 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:06 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:06 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:06 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:06 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:06 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:07 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:44:12 Warning: Warning (2): htmlentities() [<a href='http://php.net/function.htmlentities'>function.htmlentities</a>]: charset `d' not supported, assuming iso-8859-1 in [C:\wamp\www\cake\cake\libs\view\helpers\html.php, line 298]
+2011-04-19 12:47:24 Warning: Warning (2): fopen(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_decision_models) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [C:\wamp\www\cake\cake\libs\file.php, line 152]
+2011-04-19 12:58:26 Warning: Warning (2): fopen(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_relationship_types) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [C:\wamp\www\cake\cake\libs\file.php, line 152]
+2011-04-19 13:06:40 Warning: Warning (2): fopen(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_node_types) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [C:\wamp\www\cake\cake\libs\file.php, line 152]
+2011-04-19 13:06:40 Warning: Warning (2): unlink(C:\wamp\www\xpert_8\app\tmp\cache\models\cake_model_default_relationship_types) [<a href='http://php.net/function.unlink'>function.unlink</a>]: Permission denied in [C:\wamp\www\cake\cake\libs\file.php, line 294]
+2011-04-19 16:21:58 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'limit' in 'where clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-19 16:21:58 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\users\index.ctp, line 43]
+2011-04-19 16:22:35 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1054: Unknown column 'conditions' in 'where clause'</span> in [C:\wamp\www\cake\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-04-19 16:22:35 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\users\index.ctp, line 43]
+2011-04-19 16:24:04 Warning: Warning (512): Controller::paginate() - can't find model user in controller UsersController in [C:\wamp\www\cake\cake\libs\controller\controller.php, line 1102]
+2011-04-19 16:24:12 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\xpert_8\app\views\users\index.ctp, line 43]
+2011-04-19 17:56:28 Warning: Warning (2): mysql_query() expects parameter 2 to be resource, null given in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 190]
+2011-04-19 18:08:36 Warning: Warning (2): mysql_query() expects parameter 2 to be resource, null given in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 190]
+2011-04-19 19:08:27 Warning: Warning (2): mysql_query() expects parameter 2 to be resource, null given in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 190]
+2011-04-19 19:44:28 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 16
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-19 19:44:51 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 21
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-19 19:44:54 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 24
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-19 19:44:56 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 22
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-19 19:44:59 Warning: Warning (512): AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => User
+    [Aro0.foreign_key] => 27
+)
+" in [C:\wamp\www\cake\cake\libs\model\db_acl.php, line 191]
+2011-04-22 02:06:29 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:07:49 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:08:24 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:08:39 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:08:52 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:09:13 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:09:32 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:13:13 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:13:33 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:18:14 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:18:37 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:18:59 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:19:54 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
+2011-04-22 02:20:17 Warning: Warning (2): Missing argument 1 for UsersController::files() in [C:\wamp\www\xpert_8\app\controllers\users_controller.php, line 112]
